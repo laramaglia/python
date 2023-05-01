@@ -3,6 +3,6 @@
 # salário, com 15% de aumento;
 
 sal = float(input('Digite o valor do salário atual: R$'))
-au = (sal/100)*15
-salau = sal + au
-print('O valor do salário atualizado, com 15% de aumento, é de R${:.2f}.'.format(salau))
+au = sal + (sal/100)*15
+
+print('O valor do salário atualizado, com 15% de aumento, é de R${:.2f}.'.format(au))
