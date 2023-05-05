@@ -1,0 +1,31 @@
+frase = 'Curso em Vídeo Python'
+frase2 = '   Aprenda Python  '
+print(frase[3])
+print(frase[8:12])
+print(frase[11:18])
+print(frase[7:21])
+print(frase[:21:4])
+print(frase[:10])
+print(frase[15:])
+print(frase[2::3])
+print(len(frase))
+print(frase.count('o'))
+print(frase.count('o', 5, 13))
+print(frase.find('yt'))
+print(frase.find('Android'))
+print(frase.replace('Python', 'Android'))
+print(frase.upper())
+print(frase.lower())
+print(frase.capitalize())
+print(frase.title())
+print(frase2)
+print(frase2.strip())
+print(frase2.rstrip())
+print(frase2.lstrip())
+print(frase.split())
+frase = frase.split()
+print(frase[0])
+print(frase[1][1]) #quer dizer vá no item um da lista e me mostre a letra 1 da string;
+print('*'.join(frase))
+
+
